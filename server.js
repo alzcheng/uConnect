@@ -2,7 +2,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 
 //Requiring npm packages for passport
-const session = require("express-session");
+const session = require("cookie-session");
 // Requiring passport as we've configured it
 const passport = require("./config/passport");
 
